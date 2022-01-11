@@ -30,7 +30,7 @@ tiktokpy = "tiktokpy.cli:app"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pyppeteer = "^0.2.2"
+pyppeteer = ">=0.2.2,<1.1.0"
 loguru = "^0.5.0"
 pydantic = "^1.6.1"
 tqdm = "^4.48.0"
